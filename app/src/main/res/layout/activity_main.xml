@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:rowCount="7"
+        android:columnCount="2" >
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="41dp"
+            android:layout_row="1"
+            android:onClick="buttonClickShowAll"
+            android:text="@string/buttonShowAll" />
+
+        <Button
+            android:id="@+id/buttonTwo"
+            android:layout_width="170dp"
+            android:layout_height="86dp"
+            android:layout_column="1"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_row="1"
+            android:onClick="buttonClickShowNamePrice"
+            android:text="@string/listTwo" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="170dp"
+            android:layout_height="71dp"
+            android:layout_column="1"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_row="5"
+            android:onClick="buttonClickShowStock"
+            android:text="Search on stock" />
+
+        <Button
+            android:id="@+id/buttonThree"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_row="0"
+            android:onClick="buttonClickShowNameDate"
+            android:text="@string/listThree" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="41dp"
+            android:layout_row="3"
+            android:onClick="buttonClickMaps"
+            android:text="Find nearest place" />
+
+        <Button
+            android:id="@+id/buttonOne"
+            android:layout_width="170dp"
+            android:layout_height="71dp"
+            android:layout_column="1"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_row="2"
+            android:onClick="buttonClickShowName"
+            android:text="@string/listOne" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="170dp"
+            android:layout_height="71dp"
+            android:layout_column="1"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_row="3"
+            android:onClick="buttonClickShowManufacturer"
+            android:text="Search by manufacturer" />
+
+    </GridLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/nav_menu"
+        />
+
+</android.support.v4.widget.DrawerLayout>
+

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lab7</string>
+    <string name="listOne">List of products with name</string>
+    <string name="listTwo">List of products with name below price</string>
+    <string name="listThree">List of products expired</string>
+    <string name="buttonAdd">Add new product</string>
+    <string name="buttonShowAll">Show all products</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="Message">You will delete this product!</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

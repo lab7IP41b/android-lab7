@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.labs.android.lab7.Fragments.ShowNameProduct">
+
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="com.labs.android.lab7.Fragments.FragmentProductList"
+        android:layout_width="348dp"
+        android:layout_height="874dp"
+        tools:layout="@layout/fragment_fragment_product_list"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <fragment
+        android:id="@+id/fragment7"
+        android:name="com.labs.android.lab7.Fragments.FragmentDetail"
+        android:layout_width="411dp"
+        android:layout_height="871dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="391dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/fragment_fragment_detail"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="390dp" />
+
+</android.support.constraint.ConstraintLayout>
